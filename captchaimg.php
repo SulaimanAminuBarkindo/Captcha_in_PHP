@@ -1,6 +1,6 @@
 <?php
 session_start();
-require "functions.php";
+
 $image = imagecreatetruecolor(100, 50);
 
 $white = imagecolorallocate($image, 255, 255, 255);
